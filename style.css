@@ -1,0 +1,25 @@
+body{
+    text-align:center;
+    font-family:Trebuchet MS;
+    font-weight:bold;
+     background-image: linear-gradient(to bottom, lightgreen , yellow);
+}
+#head{
+    display:table;
+    margin-left:480px;
+    
+}
+.menu{
+
+    list-style: none;
+    font-family:sans-serif;
+   
+}
+.menucontent{
+    float:right;
+    padding:2px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#container{
+   
+}
