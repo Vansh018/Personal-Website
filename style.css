@@ -1,8 +1,14 @@
+#topheader{
+    background-color:#b3cccc;
+    width:100%;
+    height:100px;
+    text-align: center;
+}
 body{
     text-align:center;
     font-family:Trebuchet MS;
     font-weight:bold;
-     background-image: linear-gradient(to bottom, lightgreen , yellow);
+
 }
 #head{
     display:table;
@@ -10,16 +16,49 @@ body{
     
 }
 .menu{
-
+    margin-right:40%;
     list-style: none;
     font-family:sans-serif;
+    font-size:30px;
+    line-height: 220%;
    
 }
 .menucontent{
     float:right;
-    padding:2px;
+    padding:10px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 #container{
    
+}
+#vid1{
+    
+    width:350px;
+    height:250px;
+   
+}
+#vid2{
+    
+    width:350px;
+    height:250px;
+}
+#videotext{
+   
+   font-family:'Roboto Condensed', sans-serif;
+    user-select: none;
+}
+#videos{
+     border: 2px solid black;
+}
+#app{
+    width:40%;
+    height:800px;
+    margin-left:20%;
+}
+#game2{
+    transition:transform.9s
+}
+#game2:hover{
+    transform: scale(50px)
+    
 }
